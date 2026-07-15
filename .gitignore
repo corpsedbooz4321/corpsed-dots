@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# Swap files
+*.swp
+*.swo
+
+# Backup files
+*~
+
+# Cache
+.cache/
+
+# Linux directory metadata
+.directory

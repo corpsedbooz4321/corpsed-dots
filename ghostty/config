@@ -1,0 +1,31 @@
+custom-shader = ~/.config/ghostty/shaders/cursor_smear.glsl 
+
+# Load pywal colors first
+config-file = ~/.cache/wal/ghostty.conf
+
+# Shell
+# ------------------------
+command = /usr/bin/zsh
+
+# ------------------------
+# Font
+# ------------------------
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+
+# ------------------------
+# Window
+# ------------------------
+background-opacity = 0.80
+window-padding-x = 6
+window-padding-y = 6
+
+# ------------------------
+# Cursor
+# ------------------------
+cursor-style = block
+cursor-style-blink = true
+
+# Smooth cursor animation
+cursor-invert-fg-bg = true
+

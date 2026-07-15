@@ -1,0 +1,26 @@
+[mgr]
+cwd = { fg = "#7F8071" }
+hovered = { fg = "#0b121a", bg = "#7F8071" }
+preview_hovered = { fg = "#0b121a", bg = "#AAA48C" }
+
+[filetype]
+rules = [
+	{ mime = "image/*", fg = "#AAA48C" },
+	{ mime = "video/*", fg = "#D5CCAA" },
+	{ mime = "audio/*", fg = "#EBDFB9" },
+	{ url = "*/", fg = "#7F8071" },
+]
+
+[status]
+overall = { fg = "#0b121a", bg = "#7F8071" }
+separator_open = { fg = "#7F8071" }
+separator_close = { fg = "#7F8071" }
+
+[select]
+active = { fg = "#0b121a", bg = "#C5BC9D" }
+inactive = { fg = "#C5BC9D" }
+
+[input]
+border = { fg = "#AAA48C" }
+title = { fg = "#AAA48C" }
+value = { fg = "#c2c3c5" }
