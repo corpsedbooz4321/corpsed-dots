@@ -1,56 +1,117 @@
 # Corpsed Dots
 
-A personal dotfiles repository for a Linux desktop setup centered around Hyprland, Wayland tools, and a polished terminal experience.
+A personal dotfiles repository for my Arch Linux + Hyprland desktop, focused on a clean, keyboard-driven workflow and a consistent aesthetic.
 
-## Overview
+## ✨ Features
 
-This repository contains configuration files for a customized desktop environment with:
+- 🪟 Hyprland window manager
+- 📊 Waybar with custom modules
+- 🖥️ Ghostty terminal
+- ✏️ Neovim (Lazy.nvim)
+- 🚀 Fastfetch
+- 🐚 Zsh + custom aliases
+- 📁 Yazi file manager
+- 🎨 Rofi launcher
+- 📈 btop, htop, cava
+- 🎵 Media integration
+- ⚙️ Utility scripts
 
-- Hyprland window manager configuration
-- Waybar status bar and custom modules
-- Ghostty terminal settings
-- Neovim editor setup
-- Fastfetch system info display
-- Zsh aliases and shell helpers
-- Yazi, btop, htop, cava, rofi, and other utility configs
+## 📂 Repository Structure
 
-## Repository layout
+```
+corpsed-dots/
+├── config/
+├── fastfetch/
+├── ghostty/
+├── hypr/
+├── nvim/
+├── scripts/
+├── waybar/
+├── yazi/
+├── zsh/
+├── LICENSE
+└── README.md
+```
 
-- `hypr/` — Hyprland configuration files
-- `waybar/` — Waybar config, styles, and media modules
-- `ghostty/` — Terminal configuration and shaders
-- `nvim/` — Neovim config and plugin setup
-- `zsh/` — Shell aliases and convenience commands
-- `fastfetch/` — System information display config and assets
-- `yazi/` — Yazi file manager theme configuration
-- `config/` — Additional app-specific configuration directories such as btop, cava, htop, lazygit, nemo, rofi, wal, waypaper, and waybar
-- `scripts/` — Helper scripts and automation files
+### Directory Overview
 
-## Main tools included
+| Directory    | Description                                                                     |
+| ------------ | ------------------------------------------------------------------------------- |
+| `hypr/`      | Hyprland configuration                                                          |
+| `waybar/`    | Waybar configuration, styling, and custom modules                               |
+| `ghostty/`   | Ghostty terminal configuration                                                  |
+| `nvim/`      | Neovim configuration and plugins                                                |
+| `fastfetch/` | Fastfetch configuration                                                         |
+| `yazi/`      | Yazi themes and configuration                                                   |
+| `zsh/`       | Zsh configuration and aliases                                                   |
+| `scripts/`   | Helper scripts and automation                                                   |
+| `config/`    | Additional application configs (btop, cava, lazygit, rofi, wal, waypaper, etc.) |
+
+## 🛠️ Applications
 
 - Hyprland
 - Waybar
 - Ghostty
 - Neovim
-- Rofi
 - Fastfetch
-- Zsh
+- Rofi
 - Yazi
-- btop / htop / cava
+- Zsh
+- btop
+- htop
+- cava
+- LazyGit
+- Waypaper
+- Pywal
 
-## Usage
+## 🚀 Installation
 
-These files are intended to be used as dotfiles. Copy or symlink the relevant directories into your home configuration locations, for example:
+Clone the repository:
+
+```bash
+git clone git@github.com:corpsedbooz4321/corpsed-dots.git
+cd corpsed-dots
+```
+
+Copy the configuration you want:
 
 ```bash
 mkdir -p ~/.config
-cp -r ./hypr ~/.config/
-cp -r ./waybar ~/.config/
-cp -r ./ghostty ~/.config/
+
+cp -r hypr ~/.config/
+cp -r waybar ~/.config/
+cp -r ghostty ~/.config/
+cp -r nvim ~/.config/
+cp -r yazi ~/.config/
+cp -r fastfetch ~/.config/
+cp -r config/* ~/.config/
 ```
 
-If you use the repository as-is, adjust paths to match your own system layout and package installation.
+Copy your shell configuration if desired:
 
-## Notes
+```bash
+cp zsh/.zshrc ~/
+```
 
-This setup appears to be tailored for an Arch-based Linux environment and a Wayland workflow. Some modules and commands assume tools such as `playerctl`, `nm-applet`, `swww`, and Nerd Fonts are installed.
+## 📸 Screenshots
+
+> Screenshots coming soon.
+
+## 📝 Notes
+
+- Built for **Arch Linux**.
+- Designed for a **Wayland** workflow.
+- Requires a **Nerd Font**.
+- Some modules depend on:
+  - `playerctl`
+  - `nm-applet`
+  - `swww`
+  - `waypaper`
+  - `pywal`
+  - `git`
+  - `ripgrep`
+  - `fd`
+
+## 📄 License
+
+This repository is licensed under the MIT License.
